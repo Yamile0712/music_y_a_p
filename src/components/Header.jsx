@@ -27,19 +27,34 @@ export const Header = () => {
             </ul>
 
             <li className="nav-item">
-           <a className="nav-link" href="#">Careers</a>
+           <a className="nav-link" href="#">Catalogo</a>
             </li>
 
             <li className="nav-item">
-            <a className="nav-link " aria-disabled="true">About</a>
-            
+            <a className="nav-link " aria-disabled="true">Recomendaciones</a>
             </li>
           </ul>
           <div>
     
-            
-            <button type="button" className="btn btn-outline-secondary border border-success">Search</button>
-            
+            <form className="d-flex ms-auto " role="search">
+              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <img src="./bell.svg" alt="" />
+              <img src="./user.svg" alt="" />
+
+              <li class="nav-item dropdown list-unstyled">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-divider"></a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+              
+            </form>
+           
           </div>
         </div>
       </div>
