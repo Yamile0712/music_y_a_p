@@ -4,9 +4,11 @@ export const Home = () => {
     return (
 
         <>
-            <div style={{ backgroundImage: `url("./")` }}>
+            <div style={{ backgroundImage: `url("./portada.jpg")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
 
-                <Header />
+             <Header />
+
+                
                 <div className="container mt-5">
                     <p>Solo Para Valientes</p>
                     <h1>BIENBENIDOS A LA ZONA <br /> DE TERROR</h1>
@@ -53,6 +55,9 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <br />
+                    <br />
+                    <br />
                 </div>
 
             </div>
