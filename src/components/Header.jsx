@@ -31,7 +31,7 @@ export const Header = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link " aria-disabled="true">Recomendaciones</a>
+                <a className="nav-link " aria-disabled="true">Crea</a>
               </li>
             </ul>
             

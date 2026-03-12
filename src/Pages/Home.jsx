@@ -4,14 +4,14 @@ export const Home = () => {
     return (
 
         <>
-            <div style={{ backgroundImage: `url("./portada.jpg")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
+            <div style={{ backgroundImage: `url("./portada-final.png")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
 
              <Header />
 
                 
                 <div className="container mt-5">
                     <p>Solo Para Valientes</p>
-                    <h1>BIENBENIDOS A LA ZONA <br /> DE TERROR</h1>
+                    <h1>BIENVENIDOS A LA ZONA <br /> DE TERROR</h1>
 
                     <div className="d-flex gap-5">
                         <span>2028</span>
