@@ -10,8 +10,8 @@ export const Home = () => {
 
                 
                 <div className="container mt-5">
-                    <p>Solo Para Valientes</p>
-                    <h1>BIENVENIDOS A LA ZONA <br /> DE TERROR</h1>
+                    <p>Tu Musica</p>
+                    <h1>BIENVENIDO <br />A TU ZONA DE MUSICA</h1>
 
                     <div className="d-flex gap-5">
                         <span>2028</span>
@@ -26,6 +26,10 @@ export const Home = () => {
                     </div>
 
                     <br />
+
+
+
+                    
 
                     <div className="d-flex ">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae, <br /> nulla placeat id officiis non consequuntur a, quos at, ipsam praesentium <br /> temporibus odit vel possimus eaque quidem quis eveniet sint.</p>
