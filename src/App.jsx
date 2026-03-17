@@ -4,6 +4,7 @@ import { Home } from "./Pages/Home";
 import { Favoritas } from "./Pages/Favoritas";
 import { Catalogo } from "./Pages/Catalogo";
 import {Crea} from"./Pages/Crea";
+import "./App.css"
 
 export const App = () => {
   return (

@@ -33,32 +33,17 @@ export const Crea = () => {
                 <br />
                 <br />
 
-                    <div className=" container d-flex gap-3 " >
+                <div className=" container d-flex gap-3" >
+                    <img src="./ultima.avif" className=" w-25 border rounded" alt="..."></img>
+                    <div>
                         <img src="./ultima.avif" className=" w-25 border rounded" alt="..."></img>
-
-
-                        <div>
-                            <img src="./ultima.avif" className=" w-25 border rounded" alt="..."></img>
-
-                        </div>
 
                     </div>
 
-                    <br />
-                    <br />
+                </div>
 
-                    <div className=" container d-flex gap-3 " >
-                        <img src="./ultima.avif" className=" w-25 border rounded" alt="..."></img>
-
-
-                        <div>
-                            <img src="./ultima.avif" className=" w-25 border rounded" alt="..."></img>
-
-                        </div>
-
-                    </div>
-
-                   
+                <br />
+                <br />
 
 
                 <br />

@@ -27,10 +27,6 @@ export const Home = () => {
 
                     <br />
 
-
-
-                    
-
                     <div className="d-flex ">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae, <br /> nulla placeat id officiis non consequuntur a, quos at, ipsam praesentium <br /> temporibus odit vel possimus eaque quidem quis eveniet sint.</p>
                     </div>
