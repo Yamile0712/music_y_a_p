@@ -1,4 +1,5 @@
-import { Header } from "../components/Header"
+import { Header } from "../components/Header";
+import { Imagenes } from "../components/Imagenes"
 
 export const Home = () => {
     return (
@@ -6,9 +7,7 @@ export const Home = () => {
         <>
             <div style={{ backgroundImage: `url("./portada-final.png")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
 
-             <Header />
 
-                
                 <div className="container mt-5">
                     <p>Tu Musica</p>
                     <h1>BIENVENIDO <br />A TU ZONA DE MUSICA</h1>
@@ -36,30 +35,36 @@ export const Home = () => {
                         <button type="button" className="btn btn-secondary">More info</button>
                     </div>
 
-                    <div className="container text-center">
-                        <div className="row mt-5">
-                            <div className="col-3">
-                                <img className="border rounded" src="./peliculas.jpg" alt="" />
-                            </div>
 
-                            <div className="col-3">
-                                <img className="border rounded" src="./peliculas.jpg" alt="" />
-                            </div>
+                    <div className="d-flex justify-content-center gap-4">
+                        <div style={{ width: "250px", height: "260px", objectFit: "cover" }}>
+                            <Imagenes
+                                imagen="./descarga8.jpg"
+                            /></div>
 
-                            <div className="col-3">
-                                <img className="border rounded" src="./peliculas.jpg" alt="" />
-                            </div>
+                        <div style={{ width: "250px", height: "260px", objectFit: "cover" }}>
+                            <Imagenes
+                                imagen="./descarga5.jpg"
+                            /></div>
 
-                            <div className="col-3">
-                                <img className="border rounded" src="./peliculas.jpg" alt="" />
-                            </div>
-                        </div>
+                        <div style={{ width: "250px", height: "260px", objectFit: "cover" }}>
+                            <Imagenes
+                                imagen="./descarga15.jpg"
+                            /></div>
+
+                            
+                        <div style={{ width: "250px", height: "260px", objectFit: "cover" }}>
+                            <Imagenes
+                                imagen="./descarga3.jpg"
+                            /></div>
                     </div>
                     <br />
                     <br />
                     <br />
-                </div>
+                    <br />
 
+
+                </div>
             </div>
 
         </>

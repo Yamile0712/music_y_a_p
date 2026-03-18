@@ -1,5 +1,5 @@
-import { Header } from "../components/Header"
-import { Container } from "../components/container"
+
+import {Container}  from "../components/Container"
 
 export const Favoritas = () => {
     return (
@@ -25,44 +25,46 @@ export const Favoritas = () => {
                     </div>
                 </div>
 
-                <div className="row mt-5 container">
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga1.jpg"
-                        />
-                    </div>
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga2.jpg"
-                        />
-                    </div>
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga3.jpg"
-                        />
-                    </div>
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga4.jpg"
-                        />
-                    </div>
+                <div className="d-flex justify-content-center">
+                    <div className="row mt-5 container">
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga1.jpg"
+                            />
+                        </div>
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga2.jpg"
+                            />
+                        </div>
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga3.jpg"
+                            />
+                        </div>
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga4.jpg"
+                            />
+                        </div>
 
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga5.jpg"
-                        />
-                    </div>
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga5.jpg"
+                            />
+                        </div>
 
-                    <div className="col-md-4">
-                        <Container
-                            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                            imagen="./descarga5.jpg"
-                        />
+                        <div className="col-md-4">
+                            <Container
+                                texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                imagen="./descarga5.jpg"
+                            />
+                        </div>
                     </div>
                 </div>
 

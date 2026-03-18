@@ -1,4 +1,5 @@
-import { Header } from "../components/Header";
+import React from "react";
+import { Header } from "../components/Header"
 
 export const Crea = () => {
     return (
@@ -6,7 +7,7 @@ export const Crea = () => {
         <>
 
             <div style={{ backgroundImage: `url("./portada-final.png")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
-                <Header />
+           
 
                 <div className="container mt-5">
                     <p>Crea Un Nuevo Mundo Que Otros Puedan Ver</p>

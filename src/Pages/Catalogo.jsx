@@ -1,11 +1,12 @@
+import React from "react";
 import { Header } from "../components/Header";
-import { Cards } from "../components/Cards";
+import { Cards} from "../components/Cards";
 
 export const Catalogo = () => {
     return (
         <>
             <div style={{ backgroundImage: `url("./portada-final.png")`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'white' }}>
-                <Header />
+              
                 <div className="container mt-5">
                     <p>Recuerda Que puedes Expander Tu Dominio</p>
                     <h1>EXPLORA NUEVOS MUNDOS MUSICALES</h1>
